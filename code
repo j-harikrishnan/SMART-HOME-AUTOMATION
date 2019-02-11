@@ -1,0 +1,18 @@
+#include<lpc214x.h>                                                                
+int a,b;
+int main(void)
+{	PINSEL0=0X0;
+	IODIR0=0Xfffffff0;
+	PINSEL1=0X0;
+	IODIR1=0Xffffff0f;
+		while(1)
+	      {	a=IOPIN0&0X0000000f;
+									
+				switch(a){
+					case 1: IOPIN1=1<<16;break;  
+				    case 2: IOPIN1=2<<16;break;      
+					case 4: IOPIN1=4<<16;break;
+					case 8: IOPIN1=8<<16;break;
+					default:IOPIN1=0<<16;break;			  
+	   }}
+	 }
