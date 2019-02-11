@@ -1,0 +1,2 @@
+# SMART-HOME-AUTOMATION
+Our circuit implements a Smart grid home automation system in which with the help of PIR sensors(Parallel Infrared) motion is detected.Humans emit IR radiations these are the inputs to the PIR sensor,whenever PIR sensor detects motion in a room lights of only that room is turned ON,thus saving electricity ,by reduced use of power from grid.So only if a person is present inside a room the lights will be ON.
